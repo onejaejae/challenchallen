@@ -1,0 +1,36 @@
+.badgeList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #bfbfbf;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.badgeList p {
+    margin-left: 1vw;
+    font-weight: 600;
+}
+
+.badgeList .badgeItemContainer {
+    margin: 0 auto;
+    margin: 2vh;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    row-gap: 3vh;
+}
+
+.badgeItem {
+    margin: 0 auto;
+}
+
+.badgeItem .image {
+    width: 90px;
+    height: 90px;
+}
+
+.badgeItem .text {
+    margin: 1vh 0;
+    font-size: 0.8rem;
+    text-align: center;
+}

@@ -1,0 +1,102 @@
+.Posting {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+
+.Posting_title {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.Posting_title p {
+    text-align: center;
+}
+
+.Posting_cont p {
+    font-weight: 600;
+}
+
+.Posting_cont_img {
+    margin-top: 20px;
+    display: flex;
+
+}
+
+
+.Posting_cont_img input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Posting_cont_input {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.Posting_cont_input p {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-weight: 600;
+}
+
+.Posting_cont_input form select, input, textarea {
+    background-color: white;
+    border: 1px solid #707070;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 1.5vh;
+}
+
+.minutes {
+    width: 70%;
+    font-size: 0.8rem;
+}
+
+.cal_input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cal_btn {
+    width: 25%;
+    height: 38px;
+    background: white;
+    border: 1px solid;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Posting_btn {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.Posting_btn p {
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.reduce_carcon {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 7vh;
+}
+
+.Posting_btn button {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: #40804F;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    opacity: 0.9;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.userInfo{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.userInfo p {
+    margin-left: 1vw;
+    font-weight: 600;
+}
+
+.userInfo .infoContainer {
+    width: 80%;
+    margin: 2vh auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.userInfo .infoContainer li {
+    font-size: 1rem;
+    margin: 1vh 0;
+    display: flex;
+}
+.userInfo .infoContainer li p {
+    width: 50%;
+}
+.userInfo .infoContainer #user{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.userInfo .infoContainer input{
+    width: 100px;
+    cursor: pointer;
+    margin: 3vh auto 0 auto;
+}

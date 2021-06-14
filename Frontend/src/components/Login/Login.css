@@ -1,0 +1,39 @@
+.login_container {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 0;
+    min-height:70vh;
+}
+.login_container #title {
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.login_container button {
+    width: 300px;
+    height: 60px;
+    margin: 1vh auto 2vh auto;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.naver_button{
+    background: none;
+}
+.naver_button img{
+    width: 300px;
+}
+.kakao_button {
+    background: #fef01b;
+    border-radius: 5px;
+}
+
+.kakao_button a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #443731;
+}

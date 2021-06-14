@@ -1,0 +1,349 @@
+p {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/*현황 화면*/
+
+.MainPage_Current {
+    margin-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid;
+ 
+}
+
+.MainPage_Current_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MainPage_Current_title p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-weight: 600;
+}
+
+
+.MainPage_Current_title :last-child {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.MainPage_Current_boxes {
+    
+    /*display: flex;
+    justify-content: space-around;
+    align-items: center;
+    */
+    margin-top: 20px;
+}
+
+
+.MainPage_Current_box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgba(61, 88, 24, 0.5);
+    width: 30%;
+    height: 130px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.MainPage_Current_box p {
+    margin: 0px;
+    margin-top: 15px;
+    margin-left: 1vw;
+}
+
+.MainPage_Current_box p:first-child {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.MainPage_Current_box p:last-child {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+
+/*시직하가 화면*/
+
+
+.MainPage_Start{
+    margin-top: 0px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid;
+    background-image: url("startbg.png");
+}
+
+.MainPage_Start_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MainPage_Start_title p{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 1vw;
+    margin-right: 1vw;
+   font-weight: 600;
+   color:aliceblue
+}
+
+.MainPage_Start_desc{
+    margin-top: 80px;
+    
+}
+
+.MainPage_Start_desc p{
+    font-family: Quicksand;
+    margin-left: 30px;
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.MainPage_Start_btn{
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 95px;
+    color:aliceblue
+}
+
+.MainPage_Start_btn p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color:aliceblue
+}
+
+.MainPage_Start_btn button{
+    margin-top: 100px;
+    text-align: center;
+    width: 139px;
+height: 44px;
+    border: none;
+ background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+border-radius: 22px;
+    color: aliceblue;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+
+
+/*경고문 화면*/
+
+.MainPage_Info {
+    /* margin-top: 20px;*/
+}
+
+.MainPage_Info_title {
+    background-color: white;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+.MainPage_Info_title p {
+    text-align: center;
+}
+
+.MainPage_Info_title p:first-child {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.MainPage_Info_title p:last-child {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.MainPage_Info_desc {
+    height: 200px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-image: url("air-pollution.jpg");
+}
+
+.MainPage_Info_desc p {
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+    margin: auto 0;
+}
+
+.MainPage_Info_desc_1 {
+    font-size: 14px;
+    color: white;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'Nanum Gothic Coding', sans-serif;
+
+}
+
+
+.MainPage_Info_desc_2 {
+    margin-top: 80px;
+    font-size: 10px;
+    color: white;
+}
+
+
+/*차트 화면*/
+.MainPage_Charts {
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+.MainPage_Charts_title {
+   
+    align-items: center;
+    margin: 30px 1vw 0 1vw;
+    font-weight: 600;
+}
+
+.MainPage_Charts_title p:last-child {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*챌린지 부분*/
+.MainPage_Challenge {
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.MainPage_Challenge_title p {
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.MainPage_Challenge_desc_1 {
+    width: 100%;
+    margin: 5vh auto 0 auto;
+}
+
+.MainPage_Challenge_desc_1 ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    row-gap: 2.5vh;
+    width: 60%;
+}
+
+.MainPage_Challenge_desc_1 li {
+    color: #575757;
+    font-weight: 900;
+    display: flex;
+    align-items:center;
+    margin: 0 auto;
+    width: 130px;
+}
+
+
+.MainPage_Challenge_desc_1 p:first-child {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2.5vh;
+}
+
+
+.MainPage_Challenge_desc_2 {
+    margin-top: 40px;
+}
+
+.MainPage_Challenge_desc_2_cont {
+    display: flex;
+    margin-top: 2.5vh;
+  justify-content: center;
+}
+
+.MainPage_Challenge_desc_2_title p:first-child {
+    text-align: center;
+    font-weight: 600;
+}
+
+.MainPage_Challenge_desc_2_title p:nth-child(2) {
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+.MainPage_Challenge_desc_2_cont p {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-left: 1vw;
+    padding: 0.5vh 0;
+}
+
+.MainPage_Challenge_desc_2_cont p:first-child {
+    width: 70px;
+    border-radius: 20px;
+    padding: 5px 1px;
+    color: white;
+    font-weight:600;
+    background-color: rgba(64,128,79,0.5);
+}
+
+.MainPage_Challenge_desc_2_cont p:nth-child(2) {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.MainPage_Challenge_btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.MainPage_Challenge_btn button {
+    margin-top: 5vh;
+    text-align: center;
+    width: 220px;
+    height: 40px;
+    border: none;
+    background-color: #40804F;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 800;
+}

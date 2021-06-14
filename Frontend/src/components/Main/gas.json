@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "year": 2016,
+      "Total" :525573,
+      "Direct":166283,
+      "Indirect":359290
+    },
+    {
+      "id": 2,
+      "year": 2017,
+      "Total" :623689,
+      "Direct":263068,
+      "Indirect":360571
+    },
+    {
+      "id": 3,
+      "year": 2018,
+      "Total" :1051799,
+      "Direct":663206,
+      "Indirect":388593
+    },
+    {
+      "id": 4,
+      "year": 2019,
+      "Total" :667156,
+      "Direct":287680,
+      "Indirect":379476
+    }
+  ]
+}
