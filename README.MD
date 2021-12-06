@@ -16,6 +16,19 @@
 
 <br>
 
+### 기술스택
+---
+
+<br>
+
+✔ Backend `Node.js, Express`
+
+✔ DB  `MongoDB`
+
+✔ 배포 `EC2, S3, Route53`
+
+<br>
+
 ### Backend
 ---
 
